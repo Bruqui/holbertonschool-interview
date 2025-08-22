@@ -26,5 +26,5 @@ def canUnlockAll(boxes):
             for key in boxes[current]:
                 if 0 <= key < n and key not in visited:
                     stack.append(key)
-
+                    
     return len(visited) == n
