@@ -3,14 +3,14 @@
 """
 This function determines whether all boxes can be unlocked.
 
-Each box may contain keys to other boxes. 
-- The input `boxes` is a list where each index represents a box, 
+Each box may contain keys to other boxes.
+- The input `boxes` is a list where each index represents a box,
   and the value is a list of keys inside that box.
 - You start with box 0 unlocked.
 - A key is represented by the index of the box it can open.
-- The function uses Depth-First Search (DFS) with a stack to 
+- The function uses Depth-First Search (DFS) with a stack to
   explore all accessible boxes.
-- It returns True if all boxes can be visited/unlocked, 
+- It returns True if all boxes can be visited/unlocked,
   otherwise False.
 """
 
