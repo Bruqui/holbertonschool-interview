@@ -23,7 +23,7 @@ if __name__ == "__main__":
         for line in sys.stdin:
             line_count += 1
             matches = line.split()
-            
+
             try:
                 # Récupération de la taille (dernier élément)
                 total_size += int(matches[-1])
